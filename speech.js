@@ -22,6 +22,6 @@ recognition.onresult=on_result;
 
 function on_results(e)
 {
-	document.getElementById("text").innerHtml+="Ati rostit cuvantul: "+ e.results[0][0].transcript + ", acuratete: " +e.results[0][0].confidence + "<br>"
+	document.getElementById("text").innerHtml+="Ati rostit cuvantul: "+ e.results[0][0].transcript + ", acuratete: " +e.results[0][0].confidence + "<br>";
 	
 }
