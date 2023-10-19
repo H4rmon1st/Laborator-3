@@ -13,7 +13,7 @@ function on_touch()
 function onend()
 {
 	recognition.stop();
-	recognition_started=true;
+	recognition_started=false;
 }
 recognition.onend=onend;
 recognition.onsoundend=onend;
