@@ -1,1 +1,1 @@
-# Laborator-3
+# Miner2d
